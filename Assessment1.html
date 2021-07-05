@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+  <title>Assessment</title>
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Our Custom CSS -->
+  <link rel="stylesheet" href="Css/Assesment1.css">
+
+  <!-- Font Awesome JS -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+    integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+    crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+    integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar" class="shadow-sm shadow-white">
+      <div class="sidebar-header p-0">
+        <img src="images/logo1.png" alt="" class="img-fluid">
+      </div>
+     
+       <div class="text-center">
+       <a href="student.html" class="text-dark text-decoration-none ">
+        <button type="button" class="btn text-dark font-weight-bold mt-4">
+            <img src="images/Student (2).png" class="img-fluid"><p class="">Student</p>
+        </button><br>
+        </a>
+       
+        <div id="Lesson">
+        <a href="Assessment1.html" class="text-dark text-decoration-none">
+          <button type="button" class="btn  text-dark font-weight-bold">
+            <img src="images/LessonPlan (2).png"><p class="">Lesson Plan</p>
+              
+          </button><br>
+          </a>
+          </div>
+
+          <a href="Setting.html" class="text-dark text-decoration-none">
+            <button type="button" class="btn text-dark font-weight-bold">
+              <img src="images/Setting (2).png"><p class="">Settings</p>
+            </button>
+            </a>
+
+</div>
+      
+    </nav>
+
+    <div id="content">
+      <nav class="navbar navbar-expand-lg navbar-light bg-default">
+
+        <h5 class=" py-4 mb-4 "> </h5>
+        <button class="navbar-toggler button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="nav navbar-nav ml-auto">
+            
+            <!-- <li class="nav-item">
+              <a class="nav-link py-3 px-5 font text-dark font-weight-bold" href="#">Log out</a>
+            </li>
+             -->
+          </ul>
+        </div>
+      </nav>
+      <div class="bg-light">
+        <button type="button" id="sidebarCollapse" class="navbar-btn button">
+          &gt;
+        </button>
+      </div>
+      <div class="container-fluid bg-light box ">
+      
+
+    
+    <button type="button" class="btn border-0 mt-4" id="BegineerButton">
+        <img src="images/Play.png" class="img-fluid" height="15" width="15">Videos
+    <div class="embed-responsive embed-responsive-1by1" id="IntermediateParts">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/v64KOxKVLVg" allowfullscreen></iframe>
+      </div></button>
+    
+
+       <div class="col-sm-12">
+           <div class="row">
+               <div class="col-sm-2"></div>
+               <div class="col-sm-8">
+                <input type="text" class="form-control border-0 mt-4 py-4 font " id=""
+                placeholder="Insert your url here">
+                <div class="text-dark text-center mt-4">
+                    <span>or</span>
+                </div>
+                <div class="shadow-sm shadow1 py-5 text-center py-3 text-dark">
+              
+                <input type="file" id="my_file" style="display: none;" />
+              
+                <button type="button1" class="btn border-0">Upload</button>
+
+                </div>
+               </div>
+               <div class="col-sm-2"></div>
+           </div>
+
+       </div>
+          <!-- <div class="shadow-sm text-dark mt-5 shadow1 py-3">
+              Insert Url here
+          </div>
+          <div class="text-dark text-center">
+              <span>or</span>
+          </div> -->
+
+
+        </div>
+      </div>
+     
+    </div>
+    
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+<!-- Popper.JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+  integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+  crossorigin="anonymous"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+  integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+  crossorigin="anonymous"></script>
+  <script src="Javascript/Assessment1.js"></script>
+  <script>
+
+    $("button[type='button1']").click(function () {
+      $("input[id='my_file']").click();
+    });
+  </script>
+</body>
+</html>
